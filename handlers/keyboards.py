@@ -12,3 +12,17 @@ start_buttons = ReplyKeyboardMarkup(
         [contact, language]
     ], resize_keyboard=True
 )
+
+python_junior = KeyboardButton(text="Python Junior")
+frontend_junior = KeyboardButton(text="Frontend Junior")
+robototexnika = KeyboardButton(text="Robototexnika")
+scratch = KeyboardButton(text="Scratch")
+back = KeyboardButton(text="🔙Ortga")
+
+kurslarimiz = ReplyKeyboardMarkup(
+    keyboard=[
+        [python_junior, frontend_junior],
+        [robototexnika, scratch],
+        [back]
+    ]
+)
